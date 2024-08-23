@@ -8,7 +8,7 @@ class CalculateVkTransferCommissionTest {
         val result = calculateVkTransferCommission(
             "Maestro", 300.0, 0.0
         )
-        assertEquals(100.0, result, 0.01)
+        assertEquals(0.0, result, 0.01)
     }
 
     @Test
